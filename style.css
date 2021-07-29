@@ -62,6 +62,16 @@ header {
     color: #252B42;
     font-size: 14px;
 }
+/* Frequently Ask */
+.frequently .accordion-item button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.frequently .accordion-item span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
 /* Press Realease */
 .press .card-header {
     border-top: 3px solid #E76F51;
