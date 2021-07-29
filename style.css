@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* Global Style */
+small {
+    font-size: 13px;
+    font-weight: 300;
+}
+h1,
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+.custom-title-color {
+    color: #E76F51;
+}
+/* ---Header--- */
+header {
+    background-color: #264653;
+}
+
+/* Navigation */
+.custom-btn-color {
+    background-color: #E76F51;
+}
+/* Hero Area */
+.hero-area p {
+    font-weight: 300;
+    color: #E0E0E0;
+    font-size: 18px;
+}
+/* Features Section */
+.features-section p {
+    color: #E76F51;
+    font-weight: 600;
+}
+.features-section hr {
+    /* background-color: #E76F51; */
+    border: 1px solid orange;
+    width: 80px;
+    height: 2px;
+}
+.img-gray {
+    filter: grayscale(100%);
+}
+/* Testimonial Area */
+.client-review {
+    color: #6C6C6C;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+.client-ratings i {
+    color: #E76F51
+}
+.client-name {
+    color: #23A6F0;
+}
+.client-profession {
+    color: #252B42;
+    font-size: 14px;
+}
+/* Press Realease */
+.press .card-header {
+    border-top: 3px solid #E76F51;
+}
+.press .card-text {
+    font-size: 14px;
+}
+.press .card-body a {
+    font-size: 13px;
+    color: red;
+}
+/* Our Partners */
+.partners-section .partners {
+    background-color: #264653;
+}
